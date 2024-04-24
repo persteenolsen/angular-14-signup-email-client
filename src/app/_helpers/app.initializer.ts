@@ -7,5 +7,6 @@ export function appInitializer(accountService: AccountService) {
         .pipe(
             // catch error to start app on success or failure
             catchError(() => of())
-        );
+        )
+
 }
