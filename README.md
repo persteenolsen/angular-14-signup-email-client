@@ -30,10 +30,10 @@ Working towards a .NET 8 Web API
 - Traditional Webhotel for Hosting
 - VS Code is my developement tool
 
-# Tech used for Web API, DB, Hosting and DevOps
+# Tech used for Web API, DB and Hosting
 
 - .NET 8
-- SQLiteL for the DB
+- SQLite for the DB
 - Traditional Webhotel for Hosting
 - VS Code as developement tool
 - Swagger API documentation with routes
