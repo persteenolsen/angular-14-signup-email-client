@@ -6,7 +6,18 @@ Working towards a .NET 8 Web API
 
 # Last updated
 
-- 24-04-2024
+- 03-05-2024
+
+# Functionality of the Web App
+
+- The Web API was made without the ASP.NET Core Identity using custom JWT middleware
+- JWT authentication with refresh tokens
+- Refresh token rotation
+- Revoked token reuse detection
+- Email sign up and verification
+- Forgot password and reset password functionality
+- Role based authorization with two roles "User" and "Admin"
+- CRUD Account management routes with role based access control
 
 # Tech used for this Web Client
 
@@ -16,8 +27,16 @@ Working towards a .NET 8 Web API
 - TypeScript
 - Jasmin for Unit Testing
 - Karma for configuration and HTML Test report coverage
-- Traditional Webhotel as hosting
+- Traditional Webhotel for Hosting
 - VS Code is my developement tool
+
+# Tech used for Web API, DB, Hosting and DevOps
+
+- .NET 8
+- SQLiteL for the DB
+- Traditional Webhotel for Hosting
+- VS Code as developement tool
+- Swagger API documentation with routes
 
 # Installing
 
